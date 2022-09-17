@@ -1,0 +1,101 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #A0522D;
+	font-family: "Courier New";
+}
+
+header {
+	background-color: #F4A460;
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
+}
+
+#main-space {
+	width: 100%;
+	height: 842px;
+	display: flex;
+	color: white;
+}
+
+#pony-space {
+	width: 50%;
+	border-right: 20px solid black;
+	text-align: center;
+}
+
+#shop-space {
+	width: 50%;
+	text-align: center;
+	background-color: #8B4513;
+}
+
+#item-space {
+	width: 300px;
+	height: 100%;
+	border-right: 20px solid black;
+	background-color: #D2691E;
+	display: flex;
+}
+
+#item-list1 {
+	list-style-type: none;
+	text-align: center;
+}
+
+#item-list2 {
+	list-style-type: none;
+	text-align: center;
+}
+
+#item-list3 {
+	list-style-type: none;
+	text-align: center;
+}
+
+.item-element {
+	width: 60px;
+	height: 60px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#pony-image {
+	width: 500px;
+	cursor: pointer;
+}
+
+#click-text {
+	font-size: 60px;
+	padding: 50px;
+}
+
+#shop-text {
+	font-size: 60px;
+	padding: 50px;
+}
+
+#shop-list {
+	font-size: 30px;
+	list-style-type: none;
+}
+
+.shop-element {
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+
+.bought-shop-element {
+	margin-bottom: 40px;
+	color: black;
+}
+
+.price {
+	color: lime;
+}
